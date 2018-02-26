@@ -7,6 +7,7 @@ root.geometry('800x500')  # set up the size
 root.configure(bg='gray32')
 root.resizable(width=False, height=False)
 # ==================================================Variables=====================
+
 quality = IntVar()
 color = 'gray32'
 
@@ -35,24 +36,24 @@ def clear_to():
     t.delete(0, 'end')
 
 
-def send(mess):
-
+def send():
     FROM = str(f.get())
     TO = list(str(f.get()))
-    TEXT = str(mess.get())
+    TEXT = str(f.get())  # todo:
 
     message = """\
     From: %s
     To: %s
-
     %s
     """ % (FROM, ", ".join(TO),  TEXT)
 
     # Send the mail
 
-    server = smtplib.SMTP('myserver')
-    server.sendmail(FROM, TO, message)
-    server.quit()
+    send = smtplib.SMTP('smtp.gmail.com')
+    send.starttls()
+    send.login('mmahjoub', 'Envns1234')
+    send.sendmail(FROM, TO, message)
+    send.quit()
 
 
 # ==================================================Buttons=================
@@ -65,7 +66,7 @@ btn_clear_to = Button(right, text="clear to", font=('arial', 25, 'bold'), highli
 btn_clear_to.pack(side=TOP)
 
 btn_send = Button(right, text="send", font=('arial', 25, 'bold'), highlightbackground=color,
-                  command=lambda: send(message))
+                  command=lambda: send())
 btn_send.pack(side=BOTTOM)
 
 btn_clear_all = Button(right, text="Clear all", font=('arial', 25, 'bold'), highlightbackground=color,
