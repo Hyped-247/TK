@@ -10,13 +10,14 @@ root.grid()
 
 
 def load_file():
-    fname = askopenfilename()
-    if fname:
+    first_file = askopenfilename()
+    second_file = askopenfilename()
+    if first_file and second_file:
         try:
             print("""here it comes: settings["template"].set(fname)""")
-            print(fname)
+            print(first_file)
             file = open(str(fname), 'r')
-            print(file.readline())
+            print(file.readline())  #
 
         except:  # <- naked except is a bad idea
             showerror("Open Source File", "Failed to read file\n'%s'" % fname)
