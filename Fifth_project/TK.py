@@ -1,30 +1,50 @@
-from tkinter import Tk, Button
+from tkinter import Tk, Button, IntVar, Entry, E, StringVar, LEFT, TOP, W
 from tkinter.filedialog import askopenfilename
 from tkinter.messagebox import showerror
 
 root = Tk()
-root.title("Example")
-root.rowconfigure(5, weight=1)
-root.columnconfigure(5, weight=1)
-root.grid()
+root.title("File Counter ")
+
+first_f_count = IntVar()
+first_s_count = IntVar()
+words = StringVar()
+count_result = dict()
 
 
-def load_file():
-    first_file = askopenfilename()
-    second_file = askopenfilename()
-    if first_file and second_file:
+def first_file():
+     count(askopenfilename())
+
+
+def second_file():
+    count(askopenfilename())
+
+
+def count(file):
+    if file:
         try:
-            print("""here it comes: settings["template"].set(fname)""")
-            print(first_file)
-            file = open(str(fname), 'r')
-            print(file.readline())  #
-
-        except:  # <- naked except is a bad idea
-            showerror("Open Source File", "Failed to read file\n'%s'" % fname)
+            file = open(str(file), 'r')
+            full_text = file.readline()
+            file.close()
+            for word in words_list.get().split(','):  # mo
+                for text in full_text:
+                    if word in count_result:
+                        count_result[word] = text.count(word)
+                    else:
+                        count_result[word] = count_result[word].get() + text.count(word)
+            print(count_result)
+        except:
+            showerror("Open Source File", "Failed to read file\n'%s'" % file)
             return
 
 
-button = Button(root, text="Browse", command=load_file, width=10)
-button.grid(row=1, column=0)
+words_list = Entry(root, width=40, bd=2, insertwidth=2)
+words_list.pack(side=LEFT)
+
+first_f = Button(root, text="Browse first File ", command=lambda: first_file())
+first_f.pack(side=TOP, anchor=E)
+
+second_f = Button(root, text="Browse second File ", command=lambda: second_file())
+second_f.pack(side=TOP, anchor=E)
+
 
 root.mainloop()
