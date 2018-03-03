@@ -2,7 +2,7 @@ from tkinter import *
 import smtplib
 # ==================================================Settings=====================
 root = Tk()
-root.title("Video Youtube Downloader") # set up the title and size.
+root.title("Run Python Code") # set up the title and size.
 root.geometry('800x500')  # set up the size
 root.configure(bg='gray32')
 root.resizable(width=False, height=False)
@@ -28,23 +28,20 @@ def clear_text():
 
 
 def run():
-    pass
+    print(str(message.get("1.0", END)))
+    eval(str(message.get("1.0", END)))
 
 
 # ==================================================Buttons=================
-btn_clear_from = Button(right, text="clear", font=('arial', 25, 'bold'),
-                        highlightbackground=color,
+btn_clear_from = Button(right, text="clear", font=('arial', 25, 'bold'), highlightbackground=color,
                         command=lambda: clear_text())
 btn_clear_from.pack(side=TOP)
 
-btn_clear_to = Button(right, text="Run", font=('arial', 25, 'bold'),
-                      highlightbackground=color,
-                      command=lambda: run())
+btn_clear_to = Button(right, text="Run", font=('arial', 25, 'bold'), highlightbackground=color, command=lambda: run())
 btn_clear_to.pack(side=TOP)
 
-
 # ==================================================Message================
-message = Text(left, font=('arial', 20, 'bold'), bd=8, width=55, bg='gray80')
-message.pack(side=LEFT)
+message = Text(left, font=('arial', 20, 'bold'), bd=10, width=55, bg='gray80')
+message.pack(side=TOP)
 
 root.mainloop()

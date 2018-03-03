@@ -41,7 +41,7 @@ def errorMsg(msg):
 def plus():
     try:
         value = float(num1.get()) + float(num2.get())
-        res.set(makeAsItIs(value))
+        res.set(value)
     except:
         errorMsg('error')
 
@@ -49,7 +49,7 @@ def plus():
 def minus():
     try:
         value = float(num1.get()) - float(num2.get())
-        res.set(makeAsItIs(value))
+        res.set(value)
     except:
         errorMsg('error')
 
@@ -57,7 +57,7 @@ def minus():
 def mul():
     try:
         value = float(num1.get()) * float(num2.get())
-        res.set(makeAsItIs(value))
+        res.set(value)
     except:
         errorMsg('error')
 
@@ -69,53 +69,47 @@ def div():
     elif num2.get() != '0':
         try:
             value = float(num1.get()) / float(num2.get())
-            res.set(makeAsItIs(value))
+            res.set(value)
         except:
             errorMsg('error')
 
 
-def makeAsItIs(value):
-    if (value == int(value)):
-        value = int(value)
-    return value
-
 # ==================================================Buttons=================
 
+btn_plus = Button(frame3, text="+", width=8, command=plus)
+btn_plus.pack(side=LEFT, anchor=N, padx=5, pady=5)
 
-btnplus = Button(frame3, text="+", width=8, command=plus)
-btnplus.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_minus = Button(frame3, text="-", width=8, command=minus)
+btn_minus.pack(side=LEFT, anchor=N, padx=5, pady=5)
 
-btnminus = Button(frame3, text="-", width=8, command=minus)
-btnminus.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_mul = Button(frame3, text="*", width=8, command=mul)
+btn_mul.pack(side=LEFT, anchor=N, padx=5, pady=5)
 
-btnmul = Button(frame3, text="*", width=8, command=mul)
-btnmul.pack(side=LEFT, anchor=N, padx=5, pady=5)
-
-btndiv = Button(frame3, text="/", width=8, command=div)
-btndiv.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_div = Button(frame3, text="/", width=8, command=div)
+btn_div.pack(side=LEFT, anchor=N, padx=5, pady=5)
 
 # ==================================================Entry================
 
-entry1 = Entry(frame1, textvariable=num1)
-entry1.pack(fill=X, padx=5, expand=True)
+first_num = Entry(frame1, textvariable=num1)
+first_num.pack(fill=X, padx=5, expand=True)
 
-entry2 = Entry(frame2, textvariable=num2)
-entry2.pack(fill=X, padx=5, expand=True)
+second_num = Entry(frame2, textvariable=num2)
+second_num.pack(fill=X, padx=5, expand=True)
 
-result = Entry(frame4,textvariable=res)
+result = Entry(frame4, textvariable=res)
 result.pack(fill=X, padx=5, expand=True)
 # ==================================================Labels==============
 
-lbl1 = Label(frame1, text="Input Number 1 :", width=15)
-lbl1.pack(side=LEFT, padx=5, pady=5)
+label_first_num = Label(frame1, text="Input Number 1 :", width=15)
+label_first_num.pack(side=LEFT, padx=5, pady=5)
 
 
-lbl2 = Label(frame2, text="Input Number 2 :", width=15)
-lbl2.pack(side=LEFT, padx=5, pady=5)
+label_second_num = Label(frame2, text="Input Number 2 :", width=15)
+label_second_num.pack(side=LEFT, padx=5, pady=5)
 
 
-lbl3 = Label(frame4, text="Result :", width=10)
-lbl3.pack(side=LEFT, padx=5, pady=5)
+label_third_num = Label(frame4, text="Result :", width=10)
+label_third_num.pack(side=LEFT, padx=5, pady=5)
 
 
 root.mainloop()
