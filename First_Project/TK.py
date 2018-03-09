@@ -2,15 +2,11 @@ from tkinter import *
 import smtplib
 # ==================================================Settings=====================
 root = Tk()
-root.title("Video Youtube Downloader") # set up the title and size.
+root.title("Email Sender ") # set up the title and size.
 root.geometry('800x500')  # set up the size
-root.configure(bg='gray32')
-root.resizable(width=False, height=False)
-# ==================================================Variables=====================
-
-quality = IntVar()
 color = 'gray32'
-
+root.configure(bg=color)
+root.resizable(width=False, height=False)
 # ==================================================Frames========================
 top = Frame(root, width=800, height=50, bg=color)
 top.pack(side=TOP)
@@ -96,7 +92,7 @@ t = Entry(top, font=('arial', 20, 'bold'), width=25, bd=8, insertwidth=2)
 t.place(x=450, y=1)
 
 # ==================================================Message================
-message = Text(left, font=('arial', 20, 'bold'), bd=8, width=55, bg='gray80')
+message = Text(left, font=('arial', 20, 'bold'), bd=8, width=55, bg=color)
 message.pack(side=LEFT)
 
 root.mainloop()
