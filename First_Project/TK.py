@@ -1,8 +1,8 @@
-from tkinter import *
+from tkinter import *   # Not ready because cannot send mail.
 import smtplib
 # ==================================================Settings=====================
 root = Tk()
-root.title("Email Sender ") # set up the title and size.
+root.title("Email Sender ")  # set up the title and size.
 root.geometry('800x500')  # set up the size
 color = 'gray32'
 root.configure(bg=color)
@@ -92,7 +92,7 @@ t = Entry(top, font=('arial', 20, 'bold'), width=25, bd=8, insertwidth=2)
 t.place(x=450, y=1)
 
 # ==================================================Message================
-message = Text(left, font=('arial', 20, 'bold'), bd=8, width=55, bg=color)
+message = Text(left, font=('arial', 20, 'bold'), bd=8, width=55)
 message.pack(side=LEFT)
 
 root.mainloop()

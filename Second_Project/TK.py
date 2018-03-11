@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image   # Not good for project
 
 ASCII_CHARS = [ '#', '?', '%', '.', 'S', '+', '.', '*', ':', ',', '@']
 
@@ -58,6 +58,5 @@ def handle_image_conversion(image_filepath):
 
 if __name__ == '__main__':
     import sys
-
     image_file_path = '/Users/mohammadmohjoub/PycharmProjects/TK/Second_Project/mo.jpg'
     handle_image_conversion(image_file_path)

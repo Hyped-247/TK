@@ -1,5 +1,5 @@
-from tkinter import *
-import smtplib
+from tkinter import *  # this is ready.
+
 # ==================================================Settings=====================
 root = Tk()
 root.title("Run Python Code") # set up the title and size.
@@ -29,7 +29,7 @@ def clear_text():
 
 def run():
     print(str(message.get("1.0", END)))
-    eval(str(message.get("1.0", END)))
+    exec(message.get("1.0", END))
 
 
 # ==================================================Buttons=================

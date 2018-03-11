@@ -1,11 +1,13 @@
-
 from tkinter import *
 import tkinter.messagebox
-from tkinter.ttk import Frame, Label, Entry
+
 
 # ==================================================Settings=====================
 root = Tk()
-root.geometry("400x210")
+root.title('Cal')
+root.geometry("400x150")
+color = 'gray55'
+root.configure(bg=color)
 root.resizable(width=False, height=False)
 
 # ==================================================Variables=====================
@@ -17,17 +19,15 @@ res = StringVar()
 
 
 # ==================================================Frames========================
-frame1 = Frame()
-frame1.pack(fill=X)
+top_first = Frame(root, width=800, height=60, bg=color)  # 1
+top_first.pack(side=TOP)
+top_second = Frame(root,  width=800, height=60, bg=color)  # 3
+top_second.pack(side=TOP)
+top_third = Frame(root, width=800, height=60, bg=color)  # 4
+top_third.pack(side=TOP)
+top_fourth = Frame(root, width=800, height=60, bg=color)  # 2
+top_fourth.pack(side=TOP)
 
-frame2 = Frame()
-frame2.pack(fill=X)
-
-frame3 = Frame()
-frame3.pack(fill=X)
-
-frame4 = Frame()
-frame4.pack(fill=X)
 # ==================================================Functions======================
 
 
@@ -73,44 +73,40 @@ def div():
         except:
             errorMsg('error')
 
+# ==================================================Button=================
 
-# ==================================================Buttons=================
 
-btn_plus = Button(frame3, text="+", width=8, command=plus)
-btn_plus.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_plus = Button(top_third, text="+", width=8, command=plus, highlightbackground=color)
+btn_plus.pack(side=LEFT,  padx=5, pady=5)
 
-btn_minus = Button(frame3, text="-", width=8, command=minus)
-btn_minus.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_minus = Button(top_third, text="-", width=8, command=minus, highlightbackground=color)
+btn_minus.pack(side=LEFT,  padx=5, pady=5)
 
-btn_mul = Button(frame3, text="*", width=8, command=mul)
-btn_mul.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_mul = Button(top_third, text="*", width=8, command=mul, highlightbackground=color)
+btn_mul.pack(side=LEFT,  padx=5, pady=5)
 
-btn_div = Button(frame3, text="/", width=8, command=div)
-btn_div.pack(side=LEFT, anchor=N, padx=5, pady=5)
+btn_div = Button(top_third, text="/", width=8, command=div, highlightbackground=color)
+btn_div.pack(side=LEFT,  padx=5, pady=5)
 
-# ==================================================Entry================
+# ==================================================Entry+Labels================
 
-first_num = Entry(frame1, textvariable=num1)
-first_num.pack(fill=X, padx=5, expand=True)
 
-second_num = Entry(frame2, textvariable=num2)
-second_num.pack(fill=X, padx=5, expand=True)
-
-result = Entry(frame4, textvariable=res)
-result.pack(fill=X, padx=5, expand=True)
-# ==================================================Labels==============
-
-label_first_num = Label(frame1, text="Input Number 1 :", width=15)
+label_first_num = Label(top_first, text="Input Number 1 :", bg=color)
 label_first_num.pack(side=LEFT, padx=5, pady=5)
+first_num = Entry(top_first, textvariable=num1, highlightbackground=color)
+first_num.pack(side=LEFT)
 
-
-label_second_num = Label(frame2, text="Input Number 2 :", width=15)
+label_second_num = Label(top_second, text="Input Number 2 :", bg=color)
 label_second_num.pack(side=LEFT, padx=5, pady=5)
+second_num = Entry(top_second, textvariable=num2, highlightbackground=color)
+second_num.pack(side=LEFT)
 
 
-label_third_num = Label(frame4, text="Result :", width=10)
+label_third_num = Label(top_fourth, text="Result :", bg=color)
 label_third_num.pack(side=LEFT, padx=5, pady=5)
 
+result = Entry(top_fourth, textvariable=res, highlightbackground=color)
+result.pack(side=LEFT)
 
 root.mainloop()
 
