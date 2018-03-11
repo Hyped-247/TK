@@ -17,8 +17,8 @@ count_result = dict()
 
 
 def open_file():
-    root.filename = filedialog.askopenfilename(initialdir="/", title="Select file", filetypes=(("jpeg files", "*.jpg"),
-                                                                                               ("all files", "*.txt")))
+    root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
+                                               filetypes=(("jpeg files", "*.jpg"), ("all files", "*.txt")))
 
 
 def clear():
@@ -46,20 +46,23 @@ def count(file_text):
             print('Something really bad just happened!')
 
 
-# ==================================================Entry=====================
+# ==================================================Entry======================================
 
 words_list = Entry(root, width=40, bd=2, insertwidth=2)
 words_list.pack(fill=X)
 
-# ==================================================Button=====================
+# ==================================================Button=====================================
 
-first_file = Button(root, text="Select file", highlightbackground=color, width=58, command=lambda: open_file())
+first_file = Button(root, text="Select file", highlightbackground=color, width=58,
+                    command=lambda: open_file())
 first_file.place(x=0, y=30)
 
-count_txt = Button(root, text="Count Words", highlightbackground=color,  width=58, command=lambda: count(root.filename))
+count_txt = Button(root, text="Count Words", highlightbackground=color,  width=58,
+                   command=lambda: count(root.filename))
 count_txt.place(x=0, y=60)
 
-clear_txt = Button(root, text="Clear", highlightbackground=color,  width=58, command=lambda: clear())
+clear_txt = Button(root, text="Clear", highlightbackground=color,  width=58,
+                   command=lambda: clear())
 clear_txt.place(x=0, y=90)
 
 answer = Text(root, height=30, width=500, bg='gray83')

@@ -1,16 +1,14 @@
-from tkinter import *  # this is ready.
+from tkinter import *
 
 # ==================================================Settings=====================
 root = Tk()
-root.title("Run Python Code") # set up the title and size.
+root.title("Run Python Code")  # set up the title and size.
 root.geometry('800x500')  # set up the size
-root.configure(bg='gray32')
+color = 'gray32'
+root.configure(bg=color)
 root.resizable(width=False, height=False)
 # ==================================================Variables=====================
-
 quality = IntVar()
-color = 'gray32'
-
 # ==================================================Frames========================
 top = Frame(root, width=800, height=50, bg=color)
 top.pack(side=TOP)
@@ -33,11 +31,14 @@ def run():
 
 
 # ==================================================Buttons=================
-btn_clear_from = Button(right, text="clear", font=('arial', 25, 'bold'), highlightbackground=color,
+btn_clear_from = Button(right, text="clear", font=('arial', 25, 'bold'),
+                        highlightbackground=color,
                         command=lambda: clear_text())
 btn_clear_from.pack(side=TOP)
 
-btn_clear_to = Button(right, text="Run", font=('arial', 25, 'bold'), highlightbackground=color, command=lambda: run())
+btn_clear_to = Button(right, text="Run", font=('arial', 25, 'bold'),
+                      highlightbackground=color,
+                      command=lambda: run())
 btn_clear_to.pack(side=TOP)
 
 # ==================================================Message================

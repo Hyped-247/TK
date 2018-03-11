@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c53f0f7-d80d-48b0-a209-d3515cb991ea" name="Default" comment="" />
+    <list default="true" id="0c53f0f7-d80d-48b0-a209-d3515cb991ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TK.iml" afterPath="$PROJECT_DIR$/.idea/TK.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Fifth_project/TK.py" afterPath="$PROJECT_DIR$/Fifth_project/TK.py" />
+      <change beforePath="$PROJECT_DIR$/First_Project/TK.py" afterPath="$PROJECT_DIR$/First_Project/TK.py" />
+      <change beforePath="$PROJECT_DIR$/Third_Project/TK.py" afterPath="$PROJECT_DIR$/Third_Project/TK.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +32,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
+        <entry file="file://$PROJECT_DIR$/First_Project/TK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="1494">
+              <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+                <element signature="e#844#871#0" expanded="false" />
+                <element signature="e#896#914#0" expanded="false" />
+                <element signature="e#937#955#0" expanded="false" />
+                <element signature="e#980#1006#0" expanded="false" />
+                <element signature="e#1032#1386#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,13 +51,40 @@
       <file leaf-file-name="TK.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fifth_project/TK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="720">
+              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#454#689#0" expanded="false" />
-                <element signature="e#838#1536#0" expanded="false" />
+                <element signature="e#537#724#0" expanded="false" />
+                <element signature="e#744#799#0" expanded="false" />
+                <element signature="e#828#1526#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fourth_Project/TK.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-854">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#946#1200#0" expanded="false" />
+                <element signature="e#1219#1338#0" expanded="false" />
+                <element signature="e#1358#1477#0" expanded="false" />
+                <element signature="e#1495#1614#0" expanded="false" />
+                <element signature="e#1632#1908#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,10 +123,10 @@
         <option value="$PROJECT_DIR$/dist/OPTIONS" />
         <option value="$PROJECT_DIR$/gitignore" />
         <option value="$PROJECT_DIR$/Sixth_project/TK.py" />
-        <option value="$PROJECT_DIR$/First_Project/TK.py" />
         <option value="$PROJECT_DIR$/Second_Project/TK.py" />
-        <option value="$PROJECT_DIR$/Third_Project/TK.py" />
+        <option value="$PROJECT_DIR$/First_Project/TK.py" />
         <option value="$PROJECT_DIR$/Fourth_Project/TK.py" />
+        <option value="$PROJECT_DIR$/Third_Project/TK.py" />
         <option value="$PROJECT_DIR$/Fifth_project/TK.py" />
       </list>
     </option>
@@ -129,6 +169,11 @@
               <item name="TK" type="b2602c69:ProjectViewProjectNode" />
               <item name="TK" type="462c0819:PsiDirectoryNode" />
               <item name="Fifth_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TK" type="462c0819:PsiDirectoryNode" />
+              <item name="First_Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TK" type="b2602c69:ProjectViewProjectNode" />
@@ -303,13 +348,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15256009" sideWeight="0.50214136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3155695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23615465" sideWeight="0.49785867" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08359457" sideWeight="0.49785867" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14293362" sideWeight="0.49501246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -334,13 +380,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Fifth_project/TK.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
@@ -352,8 +391,9 @@
           <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -401,8 +441,9 @@
           <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,8 +483,9 @@
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -483,8 +525,9 @@
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -524,8 +567,9 @@
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -565,8 +609,9 @@
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,8 +629,9 @@
           <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,8 +671,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -713,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sixth_project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Second_Project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -736,25 +776,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First_Project/TK.py">
+    <entry file="file://$PROJECT_DIR$/Sixth_project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#61#0" expanded="false" />
-            <element signature="e#844#871#0" expanded="false" />
-            <element signature="e#896#914#0" expanded="false" />
-            <element signature="e#937#955#0" expanded="false" />
-            <element signature="e#980#1006#0" expanded="false" />
-            <element signature="e#1032#1386#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-9">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fourth_Project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        <state relative-caret-position="-854">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#946#1200#0" expanded="false" />
             <element signature="e#1219#1338#0" expanded="false" />
@@ -765,22 +806,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
+    <entry file="file://$PROJECT_DIR$/First_Project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="1494">
+          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+            <element signature="e#844#871#0" expanded="false" />
+            <element signature="e#896#914#0" expanded="false" />
+            <element signature="e#937#955#0" expanded="false" />
+            <element signature="e#980#1006#0" expanded="false" />
+            <element signature="e#1032#1386#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fifth_project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="720">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#454#689#0" expanded="false" />
-            <element signature="e#838#1536#0" expanded="false" />
+            <element signature="e#537#724#0" expanded="false" />
+            <element signature="e#744#799#0" expanded="false" />
+            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>

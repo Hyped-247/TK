@@ -11,7 +11,6 @@ root.configure(bg=color)
 root.resizable(width=False, height=False)
 
 # ==================================================Variables=====================
-
 value = 0
 num1 = StringVar()
 num2 = StringVar()
