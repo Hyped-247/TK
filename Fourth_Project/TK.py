@@ -19,13 +19,13 @@ res = StringVar()
 
 
 # ==================================================Frames========================
-top_first = Frame(root, width=800, height=60, bg=color)  # 1
+top_first = Frame(root, width=800, height=60, bg=color)
 top_first.pack(side=TOP)
-top_second = Frame(root,  width=800, height=60, bg=color)  # 3
+top_second = Frame(root,  width=800, height=60, bg=color)
 top_second.pack(side=TOP)
-top_third = Frame(root, width=800, height=60, bg=color)  # 4
+top_third = Frame(root, width=800, height=60, bg=color)
 top_third.pack(side=TOP)
-top_fourth = Frame(root, width=800, height=60, bg=color)  # 2
+top_fourth = Frame(root, width=800, height=60, bg=color)
 top_fourth.pack(side=TOP)
 
 # ==================================================Functions======================
