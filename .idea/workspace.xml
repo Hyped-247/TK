@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c53f0f7-d80d-48b0-a209-d3515cb991ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TK.iml" afterPath="$PROJECT_DIR$/.idea/TK.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Fifth_project/TK.py" afterPath="$PROJECT_DIR$/Fifth_project/TK.py" />
-      <change beforePath="$PROJECT_DIR$/Fourth_Project/TK.py" afterPath="$PROJECT_DIR$/Fourth_Project/TK.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TK$TK__5_.coverage" NAME="TK (5) Coverage Results" MODIFIED="1519872255653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sixth_project" />
     <SUITE FILE_PATH="coverage/TK$TK__1_.coverage" NAME="TK (1) Coverage Results" MODIFIED="1520723950228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second_Project" />
-    <SUITE FILE_PATH="coverage/TK$TK__4_.coverage" NAME="TK (4) Coverage Results" MODIFIED="1520734807507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fifth_project" />
+    <SUITE FILE_PATH="coverage/TK$TK__4_.coverage" NAME="TK (4) Coverage Results" MODIFIED="1520741694223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fifth_project" />
     <SUITE FILE_PATH="coverage/TK$TK__3_.coverage" NAME="TK (3) Coverage Results" MODIFIED="1520729992588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fourth_Project" />
     <SUITE FILE_PATH="coverage/TK$TK.coverage" NAME="TK Coverage Results" MODIFIED="1520723871097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TK$TK__2_.coverage" NAME="TK (2) Coverage Results" MODIFIED="1520724537213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third_Project" />
@@ -30,24 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TK.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fifth_project/TK.py">
+      <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
+      <file leaf-file-name="TK.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fifth_project/TK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="81" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#454#689#0" expanded="false" />
+                <element signature="e#838#1536#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -310,10 +309,10 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15256009" sideWeight="0.50214136" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3155695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03448276" sideWeight="0.49785867" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23615465" sideWeight="0.49785867" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14293362" sideWeight="0.49501246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -341,7 +340,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Fifth_project/TK.py</url>
-          <line>28</line>
+          <line>33</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -356,6 +355,8 @@
           <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -403,6 +404,8 @@
           <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,6 +445,8 @@
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -481,6 +486,8 @@
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -520,6 +527,8 @@
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,6 +568,8 @@
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -576,6 +587,8 @@
           <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,6 +628,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,18 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fourth_Project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-976">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="1296">
+          <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
           <folding>
             <element signature="e#946#1200#0" expanded="false" />
             <element signature="e#1219#1338#0" expanded="false" />
@@ -761,12 +768,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Third_Project/TK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fifth_project/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="600">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#454#689#0" expanded="false" />
+            <element signature="e#838#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
