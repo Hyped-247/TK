@@ -13,6 +13,8 @@ root.resizable(width=False, height=False)
 result = StringVar()
 count_result = dict()
 
+# ==================================================Function=====================
+
 
 def open_file():
     root.filename = filedialog.askopenfilename(initialdir="/", title="Select file", filetypes=(("jpeg files", "*.jpg"),
@@ -22,10 +24,6 @@ def open_file():
 def clear():
     answer.delete("1.0", END)
     words_list.delete(0, END)
-
-
-def print_file():
-    print(root.filename)
 
 
 def count(file_text):
@@ -48,15 +46,17 @@ def count(file_text):
             print('Something really bad just happened!')
 
 
+# ==================================================Entry=====================
+
 words_list = Entry(root, width=40, bd=2, insertwidth=2)
 words_list.pack(fill=X)
 
-first_file = Button(root, text="Select file", highlightbackground=color, width=58,
-                    command=lambda: open_file())
+# ==================================================Button=====================
+
+first_file = Button(root, text="Select file", highlightbackground=color, width=58, command=lambda: open_file())
 first_file.place(x=0, y=30)
 
-count_txt = Button(root, text="Count Words", highlightbackground=color,  width=58,
-                   command=lambda: count(root.filename))
+count_txt = Button(root, text="Count Words", highlightbackground=color,  width=58, command=lambda: count(root.filename))
 count_txt.place(x=0, y=60)
 
 clear_txt = Button(root, text="Clear", highlightbackground=color,  width=58, command=lambda: clear())
