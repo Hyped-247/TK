@@ -1,6 +1,6 @@
 from tkinter import *
-
-
+import tkinter.messagebox
+from io import StringIO
 # ==================================================Settings=====================
 root = Tk()
 root.title("Run Python Code")  # set up the title and size.
@@ -23,19 +23,22 @@ def clear_text():
 
 
 def run():
-    mo = exec(message.get("1.0", END))
-    print('This is the result:', mo)
+    try:
+        old_stdout = sys.stdout
+        redirected_output = sys.stdout = StringIO()
+        exec(message.get("1.0", END))
+        sys.stdout = old_stdout
+        tkinter.messagebox.showinfo("Result", redirected_output.getvalue())
+    except SyntaxError:
+        tkinter.messagebox.showinfo("Result", "SyntaxError: unexpected EOF while parsing")
 
 
 # ==================================================Buttons=================
-btn_clear_from = Button(top, text="clear", font=('arial', 25, 'bold'),
-                        highlightbackground=color,
+btn_clear_from = Button(top, text="clear", font=('arial', 25, 'bold'), highlightbackground=color,
                         command=lambda: clear_text())
 btn_clear_from.pack(side=TOP)
 
-btn_clear_to = Button(top, text="Run", font=('arial', 25, 'bold'),
-                      highlightbackground=color,
-                      command=lambda: run())
+btn_clear_to = Button(top, text="Run", font=('arial', 25, 'bold'), highlightbackground=color, command=lambda: run())
 btn_clear_to.pack(side=TOP)
 
 # ==================================================Message================
