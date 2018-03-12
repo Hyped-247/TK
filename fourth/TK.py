@@ -1,5 +1,6 @@
 from tkinter import *   # Not ready because cannot send mail.
-import smtplib
+from smtplib import SMTP_SSL as SMTP
+from email.mime.text import MIMEText
 # ==================================================Settings=====================
 root = Tk()
 root.title("Email Sender ")  # set up the title and size.
@@ -37,23 +38,30 @@ def clear_text():
 
 
 def send(message):
-    FROM = str(f.get())
-    TO = list(str(f.get()))
-    TEXT = str(message.get("1.0", END))
 
-    message = """\
-    From: %s
-    To: %s
-    %s
-    """ % (FROM, ", ".join(TO),  TEXT)
+    HOST = 'smtp.gmail.com'
+    PORT = 465
 
-    # Send the mail
+    USERNAME = 'email@gmail.com'
+    PASSWORD = 'pass'
 
-    send = smtplib.SMTP('smtp.gmail.com')
-    send.starttls()
-    send.login('mmahjoub', 'Envns1234')
-    send.sendmail(FROM, TO, message)
-    send.quit()
+    SENDER = 'email@gmail.com'
+    RECIPIENT = 'email@gmail.com'
+
+    text_subtype = 'plain'
+
+    msg = MIMEText('text', text_subtype)
+
+    msg['Subject'] = 'Python Script'
+    msg['From'] = SENDER
+    msg['To'] = RECIPIENT
+
+    try:
+        connection = SMTP(HOST, PORT)
+        connection.login(USERNAME, PASSWORD)
+        connection.sendmail(SENDER, RECIPIENT, msg.as_string())
+    except Exception as e:
+        print(e)
 
 
 # ==================================================Buttons=================
