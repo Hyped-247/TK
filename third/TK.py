@@ -34,7 +34,7 @@ def errorMsg(msg):
     if msg == 'error':
         tkinter.messagebox.showerror('Error!', 'Something went wrong! Maybe invalid entries')
     elif msg == 'divisionerror':
-        tkinter.messagebox.showerror('Division Error', 'The value of input number 2 is 0. No dividing by 0')
+        tkinter.messagebox.showerror('Division Error', 'Cannot divide by 0')
 
 
 def plus():
