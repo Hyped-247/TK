@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c53f0f7-d80d-48b0-a209-d3515cb991ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/third/TK.py" afterPath="$PROJECT_DIR$/third/TK.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Quran.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bible.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/TK.iml" afterPath="$PROJECT_DIR$/.idea/TK.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/fifth/TK.py" afterPath="$PROJECT_DIR$/File Counter/TK.py" />
+      <change beforePath="$PROJECT_DIR$/first/TK.py" afterPath="$PROJECT_DIR$/Food Price/TK.py" />
+      <change beforePath="$PROJECT_DIR$/fourth/TK.py" afterPath="$PROJECT_DIR$/Email Sender/TK.py" />
+      <change beforePath="$PROJECT_DIR$/second/TK.py" afterPath="$PROJECT_DIR$/Python IDE/TK.py" />
+      <change beforePath="$PROJECT_DIR$/third/TK.py" afterPath="$PROJECT_DIR$/Calculator/TK.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,12 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TK$TK__5_.coverage" NAME="TK (5) Coverage Results" MODIFIED="1520833408309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/third" />
-    <SUITE FILE_PATH="coverage/TK$TK__1_.coverage" NAME="TK (1) Coverage Results" MODIFIED="1520833442293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fourth" />
-    <SUITE FILE_PATH="coverage/TK$TK__4_.coverage" NAME="TK (4) Coverage Results" MODIFIED="1520833279044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second" />
-    <SUITE FILE_PATH="coverage/TK$TK__3_.coverage" NAME="TK (3) Coverage Results" MODIFIED="1520833253657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first" />
-    <SUITE FILE_PATH="coverage/TK$TK.coverage" NAME="TK Coverage Results" MODIFIED="1520833463174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fifth" />
     <SUITE FILE_PATH="coverage/TK$TK__2_.coverage" NAME="TK (2) Coverage Results" MODIFIED="1520829053917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third_Project" />
+    <SUITE FILE_PATH="coverage/TK$TK__1_.coverage" NAME="TK (1) Coverage Results" MODIFIED="1520833442293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fourth" />
+    <SUITE FILE_PATH="coverage/TK$TK__4_.coverage" NAME="TK (4) Coverage Results" MODIFIED="1520836474936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second" />
+    <SUITE FILE_PATH="coverage/TK$TK.coverage" NAME="TK Coverage Results" MODIFIED="1520836772710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fifth" />
+    <SUITE FILE_PATH="coverage/TK$TK__5_.coverage" NAME="TK (5) Coverage Results" MODIFIED="1520833408309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/third" />
+    <SUITE FILE_PATH="coverage/TK$TK__3_.coverage" NAME="TK (3) Coverage Results" MODIFIED="1520836453607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="TK" />
@@ -26,50 +35,7 @@
     <fileColor scope="All" color="Blue" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fourth/TK.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-                <element signature="e#903#930#0" expanded="false" />
-                <element signature="e#955#973#0" expanded="false" />
-                <element signature="e#996#1014#0" expanded="false" />
-                <element signature="e#1039#1065#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TK.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first/TK.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="e#859#1032#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TK.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fifth/TK.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#537#724#0" expanded="false" />
-                <element signature="e#744#799#0" expanded="false" />
-                <element signature="e#828#1526#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,6 +77,9 @@
         <option value="$PROJECT_DIR$/Third_Project/TK.py" />
         <option value="$PROJECT_DIR$/fourth/TK.py" />
         <option value="$PROJECT_DIR$/third/TK.py" />
+        <option value="$PROJECT_DIR$/first/setup.py" />
+        <option value="$PROJECT_DIR$/Calculator/TK.py" />
+        <option value="$PROJECT_DIR$/Python IDE/TK.py" />
       </list>
     </option>
   </component>
@@ -120,9 +89,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="808" />
+    <option name="y" value="36" />
+    <option name="width" value="1280" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,11 +119,6 @@
               <item name="TK" type="b2602c69:ProjectViewProjectNode" />
               <item name="TK" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TK" type="462c0819:PsiDirectoryNode" />
-              <item name="fifth" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -169,6 +135,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/first" />
       <recent name="$PROJECT_DIR$/Second_Project" />
       <recent name="$PROJECT_DIR$/First_Project" />
     </key>
@@ -291,10 +258,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.TK" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TK (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TK (5)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TK (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TK (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TK (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TK (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TK (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TK (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -315,17 +282,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="808" y="36" width="1280" height="707" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15256009" sideWeight="0.50214136" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26123303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25997046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23301986" sideWeight="0.49785867" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14453961" sideWeight="0.49501246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31314623" sideWeight="0.49785867" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18485342" sideWeight="0.49501246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4691745" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -335,7 +303,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -374,388 +341,232 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2910">
           <caret line="99" column="11" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#945#1167#0" expanded="false" />
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second/TK.py">
+    <entry file="file://$PROJECT_DIR$/Python IDE/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="35" column="99" lean-forward="true" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <element signature="e#903#930#0" expanded="false" />
-            <element signature="e#955#973#0" expanded="false" />
-            <element signature="e#996#1014#0" expanded="false" />
-            <element signature="e#1039#1065#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2910">
           <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#945#1167#0" expanded="false" />
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <element signature="e#903#930#0" expanded="false" />
-            <element signature="e#955#973#0" expanded="false" />
-            <element signature="e#996#1014#0" expanded="false" />
-            <element signature="e#1039#1065#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
           <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#945#1167#0" expanded="false" />
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/TK.py">
+    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py" />
+    <entry file="file://$PROJECT_DIR$/Food Price/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
           <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#945#1167#0" expanded="false" />
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/TK.py">
+    <entry file="file://$PROJECT_DIR$/Food Price/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py" />
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
           <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#945#1167#0" expanded="false" />
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/TK.py">
+    <entry file="file://$PROJECT_DIR$/Food Price/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py" />
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#945#1167#0" expanded="false" />
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/TK.py">
+    <entry file="file://$PROJECT_DIR$/Food Price/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2460">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="40" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second/TK.py">
+    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py" />
+    <entry file="file://$PROJECT_DIR$/Python IDE/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py" />
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
+    <entry file="file://$PROJECT_DIR$/Food Price/setup.py" />
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py" />
+    <entry file="file://$PROJECT_DIR$/Food Price/setup.py" />
     <entry file="file://$PROJECT_DIR$/dist/TK.app/Contents/Resources/PythonApplet.icns" />
     <entry file="file://$PROJECT_DIR$/dist/TK.app/Contents/Resources/TK.py" />
-    <entry file="file://$PROJECT_DIR$/OPTIONS">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py" />
     <entry file="file://$PROJECT_DIR$/gitignore" />
     <entry file="file://$PROJECT_DIR$/Fourth_Project/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Second_Project/mo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Second_Project/mo.jpg" />
+    <entry file="file://$PROJECT_DIR$/Second_Project/TK.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="2292" column="0" lean-forward="false" selection-start-line="2292" selection-start-column="0" selection-end-line="2292" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,63 +574,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food Price/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPTIONS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File Counter/TK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second/TK.py">
+    <entry file="file://$PROJECT_DIR$/Calculator/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="312">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/TK.py">
+    <entry file="file://$PROJECT_DIR$/Python IDE/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-909">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#1186#1305#0" expanded="false" />
-            <element signature="e#1325#1444#0" expanded="false" />
-            <element signature="e#1462#1581#0" expanded="false" />
-            <element signature="e#1599#1875#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-456">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/TK.py">
+    <entry file="file://$PROJECT_DIR$/Email Sender/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="1656">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food Price/TK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
           <folding>
             <element signature="e#859#1032#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fourth/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <element signature="e#903#930#0" expanded="false" />
-            <element signature="e#955#973#0" expanded="false" />
-            <element signature="e#996#1014#0" expanded="false" />
-            <element signature="e#1039#1065#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fifth/TK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#537#724#0" expanded="false" />
-            <element signature="e#744#799#0" expanded="false" />
-            <element signature="e#828#1526#0" expanded="false" />
           </folding>
         </state>
       </provider>
